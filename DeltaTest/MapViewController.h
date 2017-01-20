@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  MapViewController.h
 //  DeltaTest
 //
 //  Created by ezkeemo on 1/20/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface MapViewController : UIViewController
 
 @end
-

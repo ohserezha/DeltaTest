@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  WebViewController.h
 //  DeltaTest
 //
 //  Created by ezkeemo on 1/20/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-
+@interface WebViewController : UIViewController
 
 @end
-

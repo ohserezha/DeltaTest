@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		D60009A61E3244B00098DE5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D60009A51E3244B00098DE5D /* main.m */; };
 		D60009A91E3244B00098DE5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D60009A81E3244B00098DE5D /* AppDelegate.m */; };
-		D60009AC1E3244B00098DE5D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60009AB1E3244B00098DE5D /* FirstViewController.m */; };
-		D60009AF1E3244B00098DE5D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60009AE1E3244B00098DE5D /* SecondViewController.m */; };
 		D60009B21E3244B00098DE5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60009B01E3244B00098DE5D /* Main.storyboard */; };
 		D60009B41E3244B00098DE5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60009B31E3244B00098DE5D /* Assets.xcassets */; };
 		D60009B71E3244B00098DE5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60009B51E3244B00098DE5D /* LaunchScreen.storyboard */; };
+		D60009C01E324C470098DE5D /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60009BF1E324C470098DE5D /* WebViewController.m */; };
+		D60009C31E324C540098DE5D /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60009C21E324C540098DE5D /* MapViewController.m */; };
+		D60009C61E324C680098DE5D /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60009C51E324C680098DE5D /* PhotosViewController.m */; };
+		D62E83C01E325D1D00FAF130 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62E83BF1E325D1D00FAF130 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +23,18 @@
 		D60009A51E3244B00098DE5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D60009A71E3244B00098DE5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D60009A81E3244B00098DE5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D60009AA1E3244B00098DE5D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		D60009AB1E3244B00098DE5D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		D60009AD1E3244B00098DE5D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		D60009AE1E3244B00098DE5D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		D60009B11E3244B00098DE5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D60009B31E3244B00098DE5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D60009B61E3244B00098DE5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D60009B81E3244B00098DE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D60009BE1E324C470098DE5D /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		D60009BF1E324C470098DE5D /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		D60009C11E324C540098DE5D /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		D60009C21E324C540098DE5D /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		D60009C41E324C680098DE5D /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
+		D60009C51E324C680098DE5D /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
+		D62E83BC1E32540C00FAF130 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D62E83BF1E325D1D00FAF130 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D62E83C01E325D1D00FAF130 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +54,7 @@
 			children = (
 				D60009A31E3244B00098DE5D /* DeltaTest */,
 				D60009A21E3244B00098DE5D /* Products */,
+				D62E83BB1E32540C00FAF130 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,10 +71,12 @@
 			children = (
 				D60009A71E3244B00098DE5D /* AppDelegate.h */,
 				D60009A81E3244B00098DE5D /* AppDelegate.m */,
-				D60009AA1E3244B00098DE5D /* FirstViewController.h */,
-				D60009AB1E3244B00098DE5D /* FirstViewController.m */,
-				D60009AD1E3244B00098DE5D /* SecondViewController.h */,
-				D60009AE1E3244B00098DE5D /* SecondViewController.m */,
+				D60009BE1E324C470098DE5D /* WebViewController.h */,
+				D60009BF1E324C470098DE5D /* WebViewController.m */,
+				D60009C11E324C540098DE5D /* MapViewController.h */,
+				D60009C21E324C540098DE5D /* MapViewController.m */,
+				D60009C41E324C680098DE5D /* PhotosViewController.h */,
+				D60009C51E324C680098DE5D /* PhotosViewController.m */,
 				D60009B01E3244B00098DE5D /* Main.storyboard */,
 				D60009B31E3244B00098DE5D /* Assets.xcassets */,
 				D60009B51E3244B00098DE5D /* LaunchScreen.storyboard */,
@@ -82,6 +92,15 @@
 				D60009A51E3244B00098DE5D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D62E83BB1E32540C00FAF130 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D62E83BF1E325D1D00FAF130 /* CoreLocation.framework */,
+				D62E83BC1E32540C00FAF130 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,10 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D60009AF1E3244B00098DE5D /* SecondViewController.m in Sources */,
 				D60009A91E3244B00098DE5D /* AppDelegate.m in Sources */,
-				D60009AC1E3244B00098DE5D /* FirstViewController.m in Sources */,
+				D60009C01E324C470098DE5D /* WebViewController.m in Sources */,
 				D60009A61E3244B00098DE5D /* main.m in Sources */,
+				D60009C61E324C680098DE5D /* PhotosViewController.m in Sources */,
+				D60009C31E324C540098DE5D /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +298,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DeltaTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zk.DeltaTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,7 +311,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DeltaTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zk.DeltaTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -315,6 +339,7 @@
 				D60009BD1E3244B00098DE5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
