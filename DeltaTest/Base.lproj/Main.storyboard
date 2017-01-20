@@ -23,18 +23,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ymn-BP-wbL">
-                                <rect key="frame" x="16" y="20" width="343" height="598"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="Ymn-BP-wbL" secondAttribute="bottom" id="9Ig-ab-yRy"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Ymn-BP-wbL" secondAttribute="trailing" id="TZC-d9-cBD"/>
+                            <constraint firstItem="Ymn-BP-wbL" firstAttribute="width" secondItem="tsR-hK-woN" secondAttribute="width" id="T1Z-CW-b7e"/>
                             <constraint firstItem="Ymn-BP-wbL" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="chb-uc-yTR"/>
-                            <constraint firstItem="Ymn-BP-wbL" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="kSX-jv-keq"/>
+                            <constraint firstItem="Ymn-BP-wbL" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="qM4-Ku-HZe"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" id="acW-dT-cKf" userLabel="Map"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="first" id="acW-dT-cKf" userLabel="Map"/>
                     <connections>
                         <outlet property="mapView" destination="Ymn-BP-wbL" id="vP7-qj-d8n"/>
                     </connections>
@@ -56,19 +56,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="26Z-NE-Mtk">
-                                <rect key="frame" x="16" y="20" width="343" height="598"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="26Z-NE-Mtk" secondAttribute="bottom" id="8KM-ig-T4e"/>
+                            <constraint firstItem="26Z-NE-Mtk" firstAttribute="width" secondItem="QS5-Rx-YEW" secondAttribute="width" id="9vt-Jm-Ocl"/>
                             <constraint firstItem="26Z-NE-Mtk" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" id="A0p-Qc-LrE"/>
-                            <constraint firstItem="26Z-NE-Mtk" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" id="p16-wG-VfJ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="26Z-NE-Mtk" secondAttribute="trailing" id="xzb-Bf-7UG"/>
+                            <constraint firstItem="26Z-NE-Mtk" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="Coo-JX-EqI"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Web" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Web" image="first" id="cPa-gy-q4n"/>
                     <connections>
                         <outlet property="webView" destination="26Z-NE-Mtk" id="54j-x5-oQa"/>
                     </connections>
@@ -122,7 +122,7 @@
                             <constraint firstItem="ZCW-NB-yWg" firstAttribute="top" secondItem="a2h-AJ-oSE" secondAttribute="bottom" id="gAb-O0-PVg"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Photos" id="3SZ-Pg-J47"/>
+                    <tabBarItem key="tabBarItem" title="Photos" image="first" id="3SZ-Pg-J47"/>
                     <connections>
                         <outlet property="collectionView" destination="a2h-AJ-oSE" id="QdD-mw-eDu"/>
                     </connections>
@@ -152,4 +152,7 @@
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="first" width="30" height="30"/>
+    </resources>
 </document>
